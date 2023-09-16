@@ -53,7 +53,7 @@
 
 .navbar-brand {
   font-weight: bold;
-  font-family: "SUIT Light";
+  font-family: Pretendard-Regular;
   font-size: 1.4rem;
 }
 </style>
