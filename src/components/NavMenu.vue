@@ -1,5 +1,5 @@
 <template>
-  <nav class="top-bar rounded-2 shadow-sm bg-body-tertiary" aria-label="Light offcanvas navbar">
+  <nav class="top-bar rounded-4 shadow-sm" aria-label="Light offcanvas navbar">
     <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight"
             aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -7,7 +7,7 @@
       </svg>
     </button>
     <a class="btn navbar-brand" href="#">{{ title }}</a>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight"
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight"
          aria-labelledby="offcanvasNavbarLightLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Offcanvas</h5>
@@ -49,6 +49,7 @@
 .top-bar {
   padding: 1rem;
   margin: 1rem;
+  background-color: #FFFFFF80;
 }
 
 .navbar-brand {
