@@ -16,7 +16,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <NavMenu title="채팅" />
+  <NavMenu />
   <div class="chat">
     <div class="post rounded-2" v-for="country in countries" :key="country.id">{{ country.name }}</div>
   </div>
@@ -30,7 +30,8 @@ onMounted(() => {
 .post {
   width: 100%;
   padding: 1rem;
-  margin-bottom: 0.7rem;
-  background-color: antiquewhite;
+  margin-bottom: 0.3rem;
+  background-color: #466617;
+  color: #FFFFFF;
 }
 </style>

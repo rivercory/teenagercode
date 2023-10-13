@@ -1,5 +1,5 @@
 <template>
-  <NavMenu title="틴에이저코드"/>
+  <NavMenu />
 </template>
 
 <script>

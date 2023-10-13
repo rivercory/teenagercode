@@ -3,7 +3,7 @@ import NavMenu from "@/components/NavMenu.vue";
 </script>
 
 <template>
-  <NavMenu title="로그인" />
+  <NavMenu />
 </template>
 
 <style>
