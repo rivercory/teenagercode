@@ -12,7 +12,7 @@ const Navbar = () => {
                         <li><a>About</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl pretendard">틴에이저코드</a>
+                <a className="btn btn-ghost normal-case text-xl text-primary pretendard">틴에이저코드</a>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
