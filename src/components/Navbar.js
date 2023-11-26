@@ -23,7 +23,7 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
                         <IoMdSettings size={22} />
                     </label>
-                    <div tabIndex={0} className="dropdown-content z-[1] card card-compact w-80 border">
+                    <div tabIndex={0} className="dropdown-content z-[1] card card-compact bg-white w-80 border">
                         <div className="card-body ibmplexsans">
                             <p className="text-lg font-bold">모드</p>
                             <p>you can use any element as a dropdown.</p>
