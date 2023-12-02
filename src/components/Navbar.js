@@ -11,12 +11,22 @@ const Navbar = () => {
                         <FaBars size={22} />
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 suit">
+                        <li className="menu-title">틴에이저코드</li>
                         <li><Link to="/">홈</Link></li>
                         <li><Link to="/dashboard">대시보드</Link></li>
                         <li><a>About</a></li>
+                        <li className="menu-title">We are melotalk family</li>
+                        <li><a href="https://melotalk.vercel.app">멜로톡</a></li>
+                        <li><a href="https://teenagercode.vercel.app">틴에이저코드</a></li>
+                        <li><a href="https://devlist-five.vercel.app">데브리스트</a></li>
+                        <li><a href="https://governmentplus.vercel.app">정부플러스</a></li>
+                        <li><a href="https://toolking.vercel.app">툴킹</a></li>
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl text-primary pretendard">틴에이저코드</Link>
+                <Link to="/" className="btn btn-ghost normal-case text-2xl text-primary pretendard">
+                    <img src="./icons/teenagercode_full.svg" width="24" height="24" />
+                    틴에이저코드
+                </Link>
             </div>
             <div className="navbar-end">
                 <div className="dropdown dropdown-end">
