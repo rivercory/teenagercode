@@ -5,7 +5,7 @@ import {IoMdSettings, IoMdNotifications} from "react-icons/io";
 
 const Navbar = () => {
     return (
-        <div className="w-auto navbar bg-gradient-to-r from-[#5c940d] to-[#74b816]">
+        <div className="w-auto navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
