@@ -1,13 +1,13 @@
 import { Helmet } from "react-helmet";
 
-function Home() {
+function FindPassword() {
     return (
         <div>
             <Helmet>
-                <title>홈 | 틴에이저코드</title>
+                <title>비밀번호 찾기 | 틴에이저코드</title>
             </Helmet>
         </div>
     );
 }
 
-export default Home;
+export default FindPassword;

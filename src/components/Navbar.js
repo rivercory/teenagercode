@@ -18,8 +18,15 @@ const Navbar = () => {
                         <li className="menu-title">틴에이저코드</li>
                         <li><Link to="/">홈</Link></li>
                         <li><Link to="/dashboard">대시보드</Link></li>
-                        <li><a>About</a></li>
-                        <li className="menu-title">We are melotalk family</li>
+                        <li className="menu-title">Account</li>
+                        <li><Link to="/account/login">로그인</Link></li>
+                        <li><Link to="/account/logout">로그아웃</Link></li>
+                        <li><Link to="/account/register">회원가입</Link></li>
+                        <li><Link to="/account/delete">회원탈퇴</Link></li>
+                        <li><Link to="/account/findpassword">비밀번호 찾기</Link></li>
+                        <li><Link to="/account/settings">설정</Link></li>
+                        <li className="menu-title">We are Melotalk Universe</li>
+                        <li><a href="https://mtuniverse.vercel.app">멜로톡 유니버스</a></li>
                         <li><a href="https://melotalk.vercel.app">멜로톡</a></li>
                         <li><a href="https://teenagercode.vercel.app">틴에이저코드</a></li>
                         <li><a href="https://devlist-five.vercel.app">데브리스트</a></li>
